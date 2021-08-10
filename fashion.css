@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, serif;
+
+    
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    margin-right: 20px;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(204, 204, 252);
+    
+
+}
+.categories{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: 20px 50px 0;
+    height: 300px;
+    padding: 20px;
+    
+
+}
+.categories div{
+    background-color: cadetblue;
+}
+
+
+
+
+
+.bag{
+    background-image: url('fashion/bag\ 5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 0.5px solid rgb(134, 134, 145);
+    
+    
+
+    
+}   
+.shoes{
+    background-image: url('fashion/shoe 1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:0.5px solid rgb(134, 134, 145);
+
+}
+.gown{
+    background-image: url('fashion/gown\ 2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 0.5px solid rgb(134, 134, 145);
+}
+.bag2{
+    background-image: url('fashion/bag.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 0.5px solid rgb(134, 134, 145);
+}
+.row{
+    width: 50%;
+    padding-left: 0;
+    /*background-color: rgb(255, 145, 0);*/
+    
+    
+
+}
+.col-2{
+    /*background-color: rgb(153, 151, 245);*/
+    width: 50%;
+    padding: 0 30px;
+  
+}
+.col-2 img{
+    width: 100%;
+    
+    
+    
+}
+.overall{
+    width: 100%;
+    padding:2rem;
+    display: flex;
+    align-items: center;
+    /*background-color:rgb(153, 151, 245);*/
+
+}
+.item{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.image{
+    width: 500px;
+}
+.row h1{
+    line-height: 50px;
+    margin: 10px 0;
+    font-size: 30px;
+    color:rgb(14, 63, 155);
+
+}
+.btn{
+    display: inline-block;
+    padding: 8px 30px;
+    background-color: rgb(14, 63, 155);
+    border-radius: 15px;
+    margin: 20px 0;
+    color: white;
+
+}
+.btn:hover{
+    background-color:rgb(71, 71, 150)
+}
+.p{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    color:rgb(47, 47, 158);
+    font-size: 20px;
+
+}
+.btn-2{
+    padding: 7px 10px;
+    background-color: rgb(96, 96, 99);
+    display: inline-block;
+    margin: 0 5px 0 0;
+    color: white;
+
+}
+.details{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    grid-gap: 10px;
+    margin: 0px 50px;
+    padding: 0 20px;
+    align-items: center;
+}
+.btn-3{
+    padding: 7px 20px;
+    background-color: rgb(47, 47, 161);
+    display: inline-block;
+    margin-top: 7px;
+    border-radius: 5px;
+    color: white;
+
+
+}
+.search input[type="text"]{
+    padding: 8px;
+    border-radius: 11px 0 0 11px;
+    border: none;
+    width: 250px;
+}    
+.search button{
+    padding:8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: rgb(49, 47, 185);
+    color: white;
+    border-radius: 0 10px 10px 0; 
+    border: none;
+    margin-left: none;
+    
+}   
+.searchbox{
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+} 
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(252px, 1fr));
+    grid-gap: 10px;
+    margin: 20px 50px 0;
+    padding: 20px;
+    
+}
+.card{
+    box-shadow: 0 0 5px rgb(123, 123, 126)
+}
+.card-image{
+    width: 100%;
+    display: block;
+}
+.card-content{
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px;
+    background-color: rgb(226, 224, 224);
+}
+.card-info{
+    font-size: 0.9em;
+    padding: 15px;
+    background-color: rgb(184, 184, 250)
+    
+}
+.cart-btn{
+    padding: 10px;
+    background-color: rgb(47, 47, 158);
+    display: inline-block;
+    border-radius: 11px;
+    color: white;
+    cursor: pointer;
+    
+}
+.p{
+    
+}
+/* media queries */
+@media only screen and (max-width: 768px) {
+
+    .categories {width: 100%}
+
+    
+}

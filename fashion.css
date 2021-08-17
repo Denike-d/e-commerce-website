@@ -231,11 +231,18 @@ a{
     display: inline-block;
     border-radius: 11px;
     color: white;
-    cursor: pointer;
-    
+    cursor: pointer;  
+}
+.varieties{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    margin: 20px 50px 0 ;
+    padding-left: 50px;
 }
 .p{
-    
+    display: flex;
+    justify-content: center;
 }
 /* media queries */
 @media only screen and (max-width: 768px) {

@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, serif;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    margin-right: 20px;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+    border: 1px solid rgb(14, 63, 155);
+    padding: 5px;
+    border-radius: 5px;
+}
+a:hover{
+    background-color:rgb(14, 63, 155);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(204, 204, 252);
+    
+
+}.search input[type="text"]{
+    padding: 8px;
+    border-radius: 11px 0 0 11px;
+    border: none;
+    width: 250px;
+}    
+.search button{
+    padding:8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: rgb(49, 47, 185);
+    color: white;
+    border-radius: 0 10px 10px 0; 
+    border: none;
+    margin-left: none;
+    
+}   
+.searchbox{
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+} 
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(252px, 1fr));
+    grid-gap: 10px;
+    margin: 20px 50px 0;
+    padding: 20px;
+    
+}
+.card{
+    box-shadow: 0 0 5px rgb(123, 123, 126);
+}
+.card-image{
+    width: 100%;
+    display: block;
+}
+.card-content{
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px;
+    background-color: rgb(226, 224, 224);
+}
+.card-info{
+    font-size: 0.9em;
+    padding: 15px;
+    background-color: rgb(184, 184, 250);
+    
+}
+.cart-btn{
+    padding: 10px;
+    background-color: rgb(47, 47, 158);
+    display: inline-block;
+    border-radius: 11px;
+    color: white;
+    cursor: pointer;  
+}

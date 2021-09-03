@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, serif;
+
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    margin-right: 20px;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+.search input[type="text"]{
+    padding: 8px;
+    border-radius: 11px 0 0 11px;
+    border: 1px solid rgb(107, 107, 109);
+    width: 250px;
+
+}    
+.search button{
+    padding:8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: rgb(49, 47, 185);
+    color: white;
+    border-radius: 0 10px 10px 0; 
+    border: none;
+    margin-left: none;
+    
+}   
+.searchbox{
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+    
+} 
+
+.variety{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(399px, 1fr));
+    grid-gap: 40px 30px;
+    margin: 20px 20px 0;
+    padding: 50px 100px 0;
+    justify-content: center;
+    
+}
+.varieties{
+    box-shadow: 0 0 5px rgb(123, 123, 126);
+    height: min-content;
+}
+.variety-image{
+    width: 100%;
+    display: block;
+}
+.variety-content{
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px;
+    background-color: rgb(226, 224, 224);
+    
+}
+.variety-info{
+    font-size: 0.9em;
+    padding: 15px;
+    background-color: rgb(184, 184, 250)
+    
+}
+.cart-btn{
+    padding: 10px;
+    background-color: rgb(47, 47, 158);
+    display: inline-block;
+    border-radius: 11px;
+    color: white;
+    cursor: pointer;  
+}
+
+section{
+    background-color: rgb(179, 179, 236);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+
+}
+header{
+    width: 100%;
+    justify-content: center;
+    padding: 20px 100px 30px;
+    font-size: 10px;
+    color: rgb(47, 47, 158);
+
+
+    
+}
+h1{
+    letter-spacing: 20px;    
+}
